@@ -27,7 +27,9 @@
 
   <div class="row">
   
-    <div class="col-span-12">
+    <div class="col-span-12 text-center">
+    
+      <img src="assets/img/intro.jpg">
     
       <h1>Duff is us</h1>
       
