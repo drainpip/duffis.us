@@ -31,16 +31,14 @@
     
       <img src="assets/img/intro.jpg">
     
-      <h1>Duff is us</h1>
-      
-      <p>Coming soon.</p>
-    
     </div><!-- .col-span-12 -->
   
   </div><!-- .row -->
 
 
 </div><!-- .container -->
+
+<div id="timeline-embed"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
@@ -56,5 +54,22 @@
   ga('send', 'pageview');
 
 </script>
+
+<script type="text/javascript">
+var timeline_config = {
+	width:              '100%',
+	height:             '600',
+	source:             'https://docs.google.com/spreadsheet/pub?key=0AsmKziUJ2Hb7dDJhQ1d5NnFGaTZ4enJXdnpDcXBQOFE&output=html',
+	embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+	hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+	start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
+	font:               'PTSerif-PTSans',             //OPTIONAL FONT
+	debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
+	maptype:            'watercolor',                   //OPTIONAL MAP STYLE
+	css:                'assets/css/timeline.css',     //OPTIONAL PATH TO CSS
+	js:                 'assets/js/timeline-min.js'    //OPTIONAL PATH TO JS
+}
+</script>
+<script type="text/javascript" src="assets/js/storyjs-embed.js"></script>
 </body>
 </html>
