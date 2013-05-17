@@ -25,20 +25,46 @@
 
 <div class="container">
 
-  <div class="row">
+  <div id="menu" class="row">
   
-    <div class="col-span-12 text-center">
+    <div class="col-span-4">
     
-      <img src="assets/img/intro.jpg">
+      <h1>Duff is us.</h1>
     
-    </div><!-- .col-span-12 -->
+    </div><!-- .col-span-4 -->
+    
+    <div class="col-span-6 col-offset-2">
+    
+      <ul class="nav nav-justified pull-right">
+        <li><a href="#">LBC</a></li>
+        <li><a href="#">Wedding Details</a></li>
+        <li><a href="#">Registry</a></li>
+      </ul>
+    
+    </div><!-- .col-span-8 -->
   
   </div><!-- .row -->
-
-
+  
 </div><!-- .container -->
+  
+<section id="home">
+  <div class="container">
+    <div id="timeline-embed"></div>  
+  </div>
+</section>
 
-<div id="timeline-embed"></div>
+<section id="lbc">
+
+</section>
+
+<section id="registry">
+
+</section>
+
+<section id="wedding">
+
+</section>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
