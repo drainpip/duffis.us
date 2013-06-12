@@ -45,26 +45,30 @@
   
   </div><!-- .row -->
   
+  <div class="row">
+  
+    <section id="home">
+      <div class="container">
+        <div id="timeline-embed"></div>  
+      </div>
+    </section>
+    
+    <section id="lbc">
+    
+    </section>
+    
+    <section id="registry">
+    
+    </section>
+    
+    <section id="wedding">
+    
+    </section>
+    
+  </div>
+  
 </div><!-- .container -->
   
-<section id="home">
-  <div class="container">
-    <div id="timeline-embed"></div>  
-  </div>
-</section>
-
-<section id="lbc">
-
-</section>
-
-<section id="registry">
-
-</section>
-
-<section id="wedding">
-
-</section>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
@@ -78,7 +82,6 @@
 
   ga('create', 'UA-40064172-1', 'duffis.us');
   ga('send', 'pageview');
-
 </script>
 
 <script type="text/javascript">
