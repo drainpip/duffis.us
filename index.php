@@ -36,9 +36,10 @@
     <div class="col-6 col-offset-2">
     
       <ul class="nav nav-justified pull-right">
-        <li><a href="#">LBC</a></li>
-        <li><a href="#">Wedding Details</a></li>
+        <li><a href="#">Wedding</a></li>
+        <li><a href="#">Long Beach</a></li>
         <li><a href="#">Registry</a></li>
+        <li><a href="#">Photos</a></li>
       </ul>
     
     </div><!-- .col-span-8 -->
