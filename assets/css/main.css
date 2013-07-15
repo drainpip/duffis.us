@@ -1,28 +1,53 @@
 body {
-	font-family: 'PT Sans', sans-serif;
-	background:url('../img/bg-1.jpg') top center no-repeat fixed;
-	-webkit-background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+  background:url('../img/bg-1.jpg') top center no-repeat fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .container {
-	
+  .position:relative;
+}
+.row {
+
 }
 #menu {
 
 }
 section {
-	box-shadow:3px 3px 13px #666 !important;
-	background:#fff;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0;
+  box-shadow:3px 3px 13px #666 !important;
+  background:#fff;
 }
+section.active {
+	position:relative;
+}
+  #Home {
+		z-index:5;
+	}
+	#Wedding {
+		z-index:4;
+	}
+	#LBC {
+		z-index:3;
+	}
+	#Registry {
+		z-index:2;
+	}
+	#Photos {
+		z-index:1;
+	}
 #timeline-embed {
-	
+  
 }
 .nav {
-	margin-top:20px;
+  margin-top:20px;
 }
 .nav a {
-	font-size:14px;
-	font-weight:bold;
+  font-size:14px;
+  font-weight:bold;
 }

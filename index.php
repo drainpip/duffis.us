@@ -36,10 +36,10 @@
     <div class="col-6 col-offset-2">
     
       <ul class="nav nav-justified pull-right">
-        <li><a href="#">Wedding</a></li>
-        <li><a href="#">Long Beach</a></li>
-        <li><a href="#">Registry</a></li>
-        <li><a href="#">Photos</a></li>
+        <li><a href="#Wedding">Wedding</a></li>
+        <li><a href="#LBC">Long Beach</a></li>
+        <li><a href="#Registry">Registry</a></li>
+        <li><a href="#Photos">Photos</a></li>
       </ul>
     
     </div><!-- .col-span-8 -->
@@ -48,22 +48,34 @@
   
   <div class="row">
   
-    <section id="home">
+    <section id="Home">
       <div class="container">
-        Testing
+        <h1>The Wedding</h1>
+        
+        <h3>Time and place</h3>
+        
+        <p>It's over here!</p>
+        
+        <h3>Interactive map</h3>
+        
+        <p>Map over here!</p>
       </div>
     </section>
     
-    <section id="lbc">
-    
+    <section id="Wedding">
+      Wedding
     </section>
     
-    <section id="registry">
-    
+    <section id="LBC">
+      LBC
     </section>
     
-    <section id="wedding">
+    <section id="Registry">
+      Registry
+    </section>
     
+    <section id="Photos">
+      Photos
     </section>
     
   </div>
@@ -73,6 +85,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
+<script src="assets/js/jquery.ba-bbq.min.js"></script>
+<script src="assets/js/fading-pages.1.3.0.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
