@@ -13,7 +13,7 @@
     <meta name="msapplication-window" content="width=1024;height=768" />
     <meta name="msapplication-starturl" content="http://duffis.us" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-    <link href="assets/css/bootstrap.3.0.0-b3.css" rel="stylesheet" media="screen"> 
+    <link href="assets/css/bootstrap.3.0.0-b11.css" rel="stylesheet" media="screen"> 
     <link href="assets/css/main.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -27,13 +27,13 @@
 
   <div id="menu" class="row">
   
-    <div class="col-span-4">
+    <div class="col-4">
     
       <h1>Duff is us.</h1>
     
     </div><!-- .col-span-4 -->
     
-    <div class="col-span-6 col-offset-2">
+    <div class="col-6 col-offset-2">
     
       <ul class="nav nav-justified pull-right">
         <li><a href="#">LBC</a></li>
@@ -49,7 +49,7 @@
   
     <section id="home">
       <div class="container">
-        <div id="timeline-embed"></div>  
+        Testing
       </div>
     </section>
     
@@ -72,7 +72,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
-<script src="assets/js/bootstrap.3.0.0.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -83,22 +82,5 @@
   ga('create', 'UA-40064172-1', 'duffis.us');
   ga('send', 'pageview');
 </script>
-
-<script type="text/javascript">
-var timeline_config = {
-	width:              '100%',
-	height:             '600',
-	source:             'https://docs.google.com/spreadsheet/pub?key=0AsmKziUJ2Hb7dDJhQ1d5NnFGaTZ4enJXdnpDcXBQOFE&output=html',
-	embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
-	hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
-	start_zoom_adjust:  '3',                            //OPTIONAL TWEAK THE DEFAULT ZOOM LEVEL
-	font:               'PTSerif-PTSans',             //OPTIONAL FONT
-	debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
-	maptype:            'watercolor',                   //OPTIONAL MAP STYLE
-	css:                'assets/css/timeline.css',     //OPTIONAL PATH TO CSS
-	js:                 'assets/js/timeline-min.js'    //OPTIONAL PATH TO JS
-}
-</script>
-<script type="text/javascript" src="assets/js/storyjs-embed.js"></script>
 </body>
 </html>

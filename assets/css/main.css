@@ -6,11 +6,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.container {
+	
+}
 #menu {
 
 }
 section {
 	box-shadow:3px 3px 13px #666 !important;
+	background:#fff;
 }
 #timeline-embed {
 	
