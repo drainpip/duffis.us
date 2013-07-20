@@ -1,46 +1,62 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  background:url('../img/bg-1.jpg') top center no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .container {
-  .position:relative;
+  position:relative;
 }
 .row {
-
+  position:relative;
+	margin-left:0;
+	margin-right:0;
 }
 #menu {
 
 }
+#bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: url("../img/bg-1.jpg") top center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:none;
+}
+.intro {
+  margin-top:40px;
+}
+.main {
+  display:none;
+}
 section {
-	position:absolute;
-	top:0;
-	left:0;
-	opacity:0;
+	display:none;
+  position:absolute;
+  top:0;
+  left:0;
   box-shadow:3px 3px 13px #666 !important;
   background:#fff;
 }
 section.active {
-	position:relative;
+	display:block;
+  position:relative;
 }
   #Home {
-		z-index:5;
-	}
-	#Wedding {
-		z-index:4;
-	}
-	#LBC {
-		z-index:3;
-	}
-	#Registry {
-		z-index:2;
-	}
-	#Photos {
-		z-index:1;
-	}
+    z-index:5;
+  }
+  #Wedding {
+    z-index:4;
+  }
+  #LBC {
+    z-index:3;
+  }
+  #Registry {
+    z-index:2;
+  }
+  #Photos {
+    z-index:1;
+  }
 #timeline-embed {
   
 }

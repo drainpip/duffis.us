@@ -2,51 +2,65 @@ $(document).ready(function() {
   "use strict";
   var mobile, i, url, img;
   var resize = false;
-  
+	
+  var hash = window.location.hash;  
+	if (hash !== '') {
+		$('.intro').fadeOut(0);
+		$('.main').fadeIn(0);
+		if ($('#bg').is(':hidden')) {
+			$("#bg").fadeIn("slow");
+		}
+	}
   $(window).bind( 'hashchange', function() {
+		var hash = window.location.hash;
     // Detect any hash change and update accordingly. I'll research alternatives to a hard-coded if statement like this.
-    var hash = window.location.hash;
     if (hash === "#Wedding") {
       i = 1;
     } else if (hash === "#LBC") {
       i = 2;
     } else if (hash === "#Registry") {
       i = 3;
-		} else if (hash === "#Photos") {
+    } else if (hash === "#Photos") {
       i = 4;
     } else {
-      i = 0;
+      i = 1;
     }
     resize = false;
     fadingPages();
   });
-  $(window).trigger( 'hashchange' ); // Trigger on load in case they come in with a hash.  
+  $(window).trigger( 'hashchange' ); // Trigger on load in case they come in with a hash. 
+	
+	$('#continue').click(function() {
+    $('.intro').fadeOut(500,function() {
+      $('#bg').fadeIn(1000,function() {
+        $('.main').fadeIn();
+      });
+    });
+  });
   
   function fadingPages() {
     checkDesktop();
     if (resize) {
-			if (mobile) {
-				$("html, body").animate({
-					scrollTop: $("section:nth-child(" + (i + 1) + ")").offset().top
-				}, 0);
-				$("section").removeAttr("style").css("opacity",1);
-				$("section.active").css("z-index","99");
-			} else {
-				$("section").animate({opacity:0},0);
-				$("section.active").animate({opacity:1},0).css("z-index","99");
-			}
+      if (mobile) {
+        $("html, body").animate({
+          scrollTop: $("section:nth-child(" + (i + 1) + ")").offset().top
+        }, 0);
+        $("section").removeAttr("style");
+      } else {
+        $("section.active").fadeIn(0);
+      }
     } else {
       if (!$(".nav li:nth-child(" + (i) + ")").hasClass("active")) {
         $(".nav li.active").removeClass("active");
         $(".nav li:nth-child(" + (i) + ")").addClass("active");
         if (!mobile) {  
-          $("section.active").animate({opacity:0},50).removeClass("active").css("z-index",i);
-          $("section:nth-child(" + (i + 1) + ")").animate({opacity:1},400).addClass("active").css("z-index","99");
+          $("section.active").fadeOut(50).removeClass("active");
+          $("section:nth-child(" + (i + 1) + ")").fadeIn().addClass("active");
         } else {
-          $("section.active").removeClass("active").css("z-index",i);
-          $("section").animate({opacity:1},0);
+          $("section.active").removeClass("active");
+          $("section").fadeIn(0);
           $("html, body").animate({
-            scrollTop: $("section:nth-child(" + (i + 1) + ")").addClass("active").css("z-index","99").offset().top
+            scrollTop: $("section:nth-child(" + (i + 1) + ")").addClass("active").offset().top
           }, 400);    
         }
       }    
@@ -68,7 +82,7 @@ $(document).ready(function() {
       $(".main-nav").removeAttr("style");
     }
   };
-
+	
   // Run on DOM ready + if window is resized
   checkDesktop();
   mainNav();

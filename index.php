@@ -23,7 +23,9 @@
 
 <body>
 
-<div class="container">
+<div id="bg"></div>
+
+<div class="container main">
 
   <div id="menu" class="row">
   
@@ -46,10 +48,10 @@
   
   </div><!-- .row -->
   
-  <div class="row">
-  
-    <section id="Home">
-      <div class="container">
+  <section id="Wedding">
+    <div class="row">
+      <div class="col-12">
+      
         <h1>The Wedding</h1>
         
         <h3>Time and place</h3>
@@ -59,29 +61,40 @@
         <h3>Interactive map</h3>
         
         <p>Map over here!</p>
+        
       </div>
-    </section>
-    
-    <section id="Wedding">
-      Wedding
-    </section>
-    
-    <section id="LBC">
+    </div>
+  </section><!-- #Wedding -->
+  
+  <section id="LBC">
+    <div class="row">
       LBC
-    </section>
-    
-    <section id="Registry">
+    </div>
+  </section><!-- #LBC -->
+  
+  <section id="Registry">
+    <div class="row">
       Registry
-    </section>
-    
-    <section id="Photos">
+    </div>
+  </section><!-- Registry -->
+  
+  <section id="Photos">
+    <div class="row">
       Photos
-    </section>
-    
-  </div>
+    </div>
+  </section><!-- #Photos -->
   
 </div><!-- .container -->
+
+<div class="container intro text-center">
+
+  <img src="assets/img/invite-heart.jpg">
   
+  <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
+  
+  <h4><a href="#Wedding" id="continue">Continue to site</a></h4>
+
+</div><!-- .container.intro -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
