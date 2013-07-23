@@ -55,9 +55,15 @@
 
       <div class="col-sm-6 col-lg-6">
       
-        <h3>Time and place</h3>
+        <h3>Where and when</h3>
         
-        <p>It's over here!</p>
+        <p>5761 E Colorado Street<br>Long Beach, CA<br>90814</p>
+        
+        <p>The ceremony will be Friday, October 4th at 5:30 in the evening.</p>
+        
+        <p>Cocktail attire, reception immediately follows.</p>
+        
+        <p>There is plenty of parking at the venue.</p>
         
         <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
         
