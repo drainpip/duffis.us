@@ -39,7 +39,7 @@
     
       <ul class="nav nav-justified pull-right">
         <li><a href="#Wedding">Wedding</a></li>
-        <li><a href="#LBC">Long Beach</a></li>
+        <li><a href="#LBC">Long&nbsp;Beach</a></li>
         <li><a href="#Registry">Registry</a></li>
         <li><a href="#Photos">Photos</a></li>
       </ul>
