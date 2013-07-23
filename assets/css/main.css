@@ -33,14 +33,14 @@ body {
 section {
 	display:none;
   position:absolute;
-  top:0;
+  top:71px;
   left:0;
+  opacity:0.9;
   box-shadow:3px 3px 13px #666 !important;
   background:#fff;
 }
 section.active {
 	display:block;
-  position:relative;
 }
   #Home {
     z-index:5;
@@ -66,4 +66,24 @@ section.active {
 .nav a {
   font-size:14px;
   font-weight:bold;
+  color:#1e4167;
+}
+
+@media screen and (max-width:400px) {
+  section {
+    position:relative;
+    width:100%;
+  }
+}
+
+@media (min-width:768px){
+  section {width:728px;}
+}
+
+@media(min-width:992px){
+  section {width:940px;}
+}
+
+@media(min-width:1200px){
+  section {width:1170px;}
 }
