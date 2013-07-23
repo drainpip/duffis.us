@@ -71,6 +71,9 @@ section h1:first-child {
 .nav {
   margin-top:20px;
 }
+.nav li.active {
+  border:1px solid #1e4167;
+}
 .nav a {
   font-size:14px;
   font-weight:700;

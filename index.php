@@ -67,7 +67,9 @@
         
         <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
         
-      </div>
+        <p>Check out some <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in Long Beach.</p>
+        
+      </div><!-- .col-sm-6.col-lg-6 -->
       
       <div class="col-sm-6 col-lg-6">
         
@@ -75,14 +77,81 @@
         
         <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps"><img src="assets/img/wedding-map.jpg"></a>
         
-      </div>
-    </div>
+      </div><!-- .col-sm-6.col-lg-6 -->
+    </div><!-- .row -->
   </section><!-- #Wedding -->
   
   <section id="LBC">
     <div class="row">
-      LBC
-    </div>
+      <h1>We heart LBC</h1>
+      <div class="col-sm-6 col-lg-6">
+      
+        <h3>Our favorite places in SoCal</h3>
+        
+        <h4><a href="http://www.yelp.com/biz/the-coffee-cup-caf%C3%A9-long-beach-2" title="The Coffee Cup Cafe on Yelp">The Coffee Cup Cafe</a></h4>
+        <p>3734 E 4th Street<br>Long Beach, CA<br>90814</p>
+        <p>562.433.3292</p>
+        <p>Possibly the best breakfast in Long Beach, cash only, veggie friendly</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/los-compadres-long-beach-2" title="Los Compadres on Yelp">Los Compadres</a></h4>
+        <p>3229 E Anaheim St<br>Long Beach, CA<br>90804</p>
+        <p>562.961.0061</p>
+        <p>Legit mexican food, expect a wait in the evenings</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/320-main-seal-beach" title="320 Main on Yelp">320 Main</a></h4>
+        <p>320 Main Street<br>Seal Beach, CA<br>90740</p>
+        <p>562.799.6246</p>
+        <p>Our favorite restaurant, get a reservation and cocktails</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/beachwood-bbq-seal-beach" title="Beachwood BBQ on Yelp">Beachwood BBQ</a></h4>
+        <p>131 1/2 Main Street<br>Seal Beach, CA<br>90740</p>
+        <p>562.493.4500</p>
+        <p>Our favorite BBQ, great and constantly changing beer selection, get the wings, expect a wait and don't bring large parties</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/koi-sushi-seal-beach" title="Koi Sushi on Yelp">Koi Sushi</a></h4>
+        <p>600 Pacific Coast Highway<br>Seal Beach, CA<br>90740</p>
+        <p>562.431-1186</p>
+        <p>Best sushi in the area hands down</p>
+        
+      </div><!-- .col-sm-6.col-lg-6 -->
+      
+      <div class="col-sm-6 col-lg-6">
+      
+        <h3>Good hotels near the ceremony</h3>
+        
+        <h4><a href="http://www.yelp.com/biz/the-westin-long-beach-long-beach" title="The Westin, Long Beach on Yelp">The Westin, Long Beach</a></h4>
+        <p>333 East Ocean Blvd.<br>Long Beach, CA<br>90802</p>
+        <p>562.436.3000, reservations: 888.627.8403</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/hyatt-the-pike-long-beach-long-beach" title="Hyatt The Pike, Long Beach on Yelp">Hyatt The Pike, Long Beach</a></h4>
+        <p>285 Bay Street<br>Long Beach, CA<br>90802</p>
+        <p>reservations: 866.678.6350</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/best-western-golden-sails-hotel-long-beach-2" title="Best Western Golden Sails, Long Beach on Yelp">Best Western Golden Sails, Long Beach</a></h4>
+        <p>6285 E Pacific Coast Hwy<br>Long Beach, CA<br>90803</p>
+        <p>562.596.1631</p>
+        <p>(Closest to ceremony)</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/hampton-inn-and-suites-seal-beach#query:Hampton%20Inn%2C%20Seal%20Beach" title="Hampton Inn, Seal Beach on Yelp">Hampton Inn, Seal Beach</a></h4>
+        <p>2401 Seal Beach Blvd.<br>Seal Beach, CA<br>90740</p>
+        <p>562.594.3939</p>
+        
+      </div><!-- .col-sm-6.col-lg-6 -->
+    </div><!-- .row -->
   </section><!-- #LBC -->
   
   <section id="Registry">
