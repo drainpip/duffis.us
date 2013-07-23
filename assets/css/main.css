@@ -1,5 +1,9 @@
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400;
+}
+h1, h2, h3, h4, h5, strong {
+  font-weight:700;
 }
 .container {
   position:relative;
@@ -35,7 +39,8 @@ section {
   position:absolute;
   top:71px;
   left:0;
-  opacity:0.9;
+  padding-bottom:20px;
+  opacity:0.99;
   box-shadow:3px 3px 13px #666 !important;
   background:#fff;
 }
@@ -57,15 +62,18 @@ section.active {
   #Photos {
     z-index:1;
   }
-#timeline-embed {
-  
+section h1:first-child {
+  margin-left:15px;
+  margin-right:15px;
+  font-family: 'Old Standard TT', serif;
+  font-weight:400;
 }
 .nav {
   margin-top:20px;
 }
 .nav a {
   font-size:14px;
-  font-weight:bold;
+  font-weight:700;
   color:#1e4167;
 }
 

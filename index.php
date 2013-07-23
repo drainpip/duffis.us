@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <title>Duff is us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shane is me">
+    <meta name="description" content="Duff is us">
     <meta name="author" content="Shane">
     <meta name="keywords" content="Duff is us" />  
     <meta name="application-name" content="Duff is us" />
     <meta name="msapplication-tooltip" content="DI.U" />
     <meta name="msapplication-window" content="width=1024;height=768" />
     <meta name="msapplication-starturl" content="http://duffis.us" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Old+Standard+TT' rel='stylesheet' type='text/css'>
     <link href="assets/css/bootstrap.3.0.0-b11.css" rel="stylesheet" media="screen"> 
     <link href="assets/css/main.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
@@ -50,17 +50,24 @@
   
   <section id="Wedding">
     <div class="row">
-      <div class="col-12">
+
+      <h1>The Wedding</h1>
+
+      <div class="col-sm-6 col-lg-6">
       
-        <h1>The Wedding</h1>
-        
         <h3>Time and place</h3>
         
         <p>It's over here!</p>
         
-        <h3>Interactive map</h3>
+        <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
         
-        <p>Map over here!</p>
+      </div>
+      
+      <div class="col-sm-6 col-lg-6">
+        
+        <h3>Click map to view interactive</h3>
+        
+        <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps"><img src="assets/img/wedding-map.jpg"></a>
         
       </div>
     </div>
