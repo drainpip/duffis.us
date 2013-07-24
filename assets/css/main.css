@@ -2,6 +2,9 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:400;
 }
+a, a:focus, a:active {
+  border:0;
+}
 h1, h2, h3, h4, h5, strong {
   font-weight:700;
 }
@@ -72,12 +75,15 @@ section h1:first-child {
   margin-top:20px;
 }
 .nav li.active {
-  border:1px solid #1e4167;
+  border:1px solid #000;
 }
 .nav a {
   font-size:14px;
   font-weight:700;
-  color:#1e4167;
+  color:#000;
+}
+.nav > li > a:hover {
+  background:none;
 }
 
 @media screen and (max-width:400px) {

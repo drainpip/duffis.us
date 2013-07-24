@@ -31,7 +31,7 @@
   
     <div class="col-4">
     
-      <h1>Duff is us.</h1>
+      <h1>Duff is us</h1>
     
     </div><!-- .col-span-4 -->
     
@@ -57,17 +57,21 @@
       
         <h3>Where and when</h3>
         
+        <p>Friday, October 4th at 5:30 in the evening.</p>
+        
+        <p>Betty H. Reckas Cultural Center</p>
+        
         <p>5761 E Colorado Street<br>Long Beach, CA<br>90814</p>
         
-        <p>The ceremony will be Friday, October 4th at 5:30 in the evening.</p>
+        <p>Reception immediately following</p>
         
-        <p>Cocktail attire, reception immediately follows.</p>
+        <p>Cocktail attire</p>
         
-        <p>There is plenty of parking at the venue.</p>
+        <h2><a href="#RSVP" class="RSVP-modal">Please R.S.V.P.</a></h2>
         
-        <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
+        <p>We look forward to celebrating with you!</p>
         
-        <p>Check out some <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in Long Beach.</p>
+        <p>Navigate through our website to see <a href="#Photos" title="Pictures of us">photos, <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in the Long Beach area.</p>
         
       </div><!-- .col-sm-6.col-lg-6 -->
       
@@ -86,7 +90,7 @@
       <h1>We heart LBC</h1>
       <div class="col-sm-6 col-lg-6">
       
-        <h3>Our favorite places in SoCal</h3>
+        <h3>Our favorite restaurants</h3>
         
         <h4><a href="http://www.yelp.com/biz/the-coffee-cup-caf%C3%A9-long-beach-2" title="The Coffee Cup Cafe on Yelp">The Coffee Cup Cafe</a></h4>
         <p>3734 E 4th Street<br>Long Beach, CA<br>90814</p>
@@ -118,7 +122,7 @@
         
         <h4><a href="http://www.yelp.com/biz/koi-sushi-seal-beach" title="Koi Sushi on Yelp">Koi Sushi</a></h4>
         <p>600 Pacific Coast Highway<br>Seal Beach, CA<br>90740</p>
-        <p>562.431-1186</p>
+        <p>562.431.1186</p>
         <p>Best sushi in the area hands down</p>
         
       </div><!-- .col-sm-6.col-lg-6 -->
@@ -150,19 +154,41 @@
         <p>2401 Seal Beach Blvd.<br>Seal Beach, CA<br>90740</p>
         <p>562.594.3939</p>
         
+        <h3>Fun places in the area</h3>
+        
+        <h4><a href="http://www.yelp.com/biz/art-theatre-long-beach" title="Art Theatre Long Beach on Yelp">Art Theatre</a></h4>
+        <p>2025 E 4th St<br>Long Beach, CA<br>90814</p>
+        <p>562.438.5435</p>
+        <p>Cool venue for LA/NY only films</p>
+        
+        <hr>
+        
+        <h4><a href="http://www.yelp.com/biz/aquarium-of-the-pacific-long-beach" title="Aquarium of the Pacific Long Beach on Yelp">Aquarium of the Pacific</a></h4>
+        <p>100 Aquarium Way<br>Long Beach, CA<br>90802</p>
+        <p>562.590.3100</p>
+        <p>Kid friendly, lots to see and do</p>
+        
       </div><!-- .col-sm-6.col-lg-6 -->
     </div><!-- .row -->
   </section><!-- #LBC -->
   
   <section id="Registry">
     <div class="row">
-      Registry
+      <h1>Registry</h1>
+      <div class="col-sm-6 col-lg-6">
+      </div>
+      <div class="col-sm-6 col-lg-6">
+      </div>
     </div>
   </section><!-- Registry -->
   
   <section id="Photos">
     <div class="row">
-      Photos
+      <h1>Us on film</h1>
+      <div class="col-sm-6 col-lg-6">
+      </div>
+      <div class="col-sm-6 col-lg-6">
+      </div>
     </div>
   </section><!-- #Photos -->
   
