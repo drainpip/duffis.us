@@ -45,7 +45,7 @@
 
       <h1 class="cursive">The Wedding</h1>
 
-      <div class="col-sm-6 col-lg-6">
+      <div class="col-sm-10 col-lg-10">
       
         <h3>Where and when</h3>
         
@@ -57,6 +57,7 @@
           5761 E Colorado Street<br>
           Long Beach, CA<br>
           90814<br>
+          <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps">Map</a>
         </address>
         
         <p>Reception immediately following</p>
@@ -69,7 +70,7 @@
         
         <p>Navigate through our website to see <a href="#Photos" title="Pictures of us">photos, <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in the Long Beach area.</p>
         
-      </div><!-- .col-sm-6.col-lg-6 -->
+      </div><!-- .col-sm-10.col-lg-10 -->
 
     </div><!-- .row -->
   </section><!-- #Wedding -->
