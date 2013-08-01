@@ -13,7 +13,7 @@
     <meta name="msapplication-window" content="width=1024;height=768" />
     <meta name="msapplication-starturl" content="http://duffis.us" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Parisienne|Oswald' rel='stylesheet' type='text/css'>
-    <link href="assets/css/bootstrap.3.0.0-b11.css" rel="stylesheet" media="screen"> 
+    <link href="assets/css/bootstrap.3.0.0.RC1.css" rel="stylesheet" media="screen">
     <link href="assets/css/main.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -74,6 +74,9 @@
 
       <div class="col-sm-10 col-lg-10">
       
+        <form action="#RSVP" method="post">
+        
+        </form>
         
       </div><!-- .col-sm-10.col-lg-10 -->
 
