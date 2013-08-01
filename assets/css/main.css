@@ -20,10 +20,16 @@ h1, h2, h3, h4, h5 {
 	margin-right:0;
 }
 #menu {
-
+  position:fixed;
+  top:10px;
+  left:10px;
+  z-index:10;
+}
+#menu > h1 {
+  margin-top:0;
 }
 #bg {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -44,11 +50,14 @@ section {
 	display:none;
   position:absolute;
   top:71px;
-  left:0;
+  left:160px;
   padding-bottom:20px;
-  opacity:0.99;
+  opacity:0.90;
   box-shadow:3px 3px 13px #666 !important;
   background:#fff;
+}
+section > * {
+  opacity:1;
 }
 section.active {
 	display:block;
@@ -79,32 +88,34 @@ section h1:first-child {
   margin-top:20px;
 }
 .nav li.active {
-  border:1px solid #000;
+  
 }
 .nav a {
   font-size:14px;
-  font-weight:700;
+  font-family: 'Oswald', sans-serif;
   color:#000;
 }
 .nav > li > a:hover {
-  background:none;
+  text-decoration:underline;
 }
 
 @media screen and (max-width:400px) {
   section {
     position:relative;
+    top:auto;
+    left:auto;
     width:100%;
   }
 }
 
 @media (min-width:768px){
-  section {width:728px;}
+  section {}
 }
 
 @media(min-width:992px){
-  section {width:940px;}
+  section {}
 }
 
 @media(min-width:1200px){
-  section {width:1170px;}
+  section {}
 }

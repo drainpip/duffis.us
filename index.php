@@ -25,28 +25,20 @@
 
 <div id="bg"></div>
 
-<div class="container main">
+<div class="main">
 
-  <div id="menu" class="row">
+  <div id="menu">
   
-    <div class="col-4">
+    <h1>Duff is us</h1>
     
-      <h1>Duff is us</h1>
-    
-    </div><!-- .col-span-4 -->
-    
-    <div class="col-6 col-offset-2">
-    
-      <ul class="nav nav-justified pull-right">
-        <li><a href="#Wedding">Wedding</a></li>
-        <li><a href="#LBC">Long&nbsp;Beach</a></li>
-        <li><a href="#Registry">Registry</a></li>
-        <li><a href="#Photos">Photos</a></li>
-      </ul>
-    
-    </div><!-- .col-span-8 -->
-  
-  </div><!-- .row -->
+    <ul class="nav">
+      <li><a href="#Wedding">Wedding</a></li>
+      <li><a href="#LBC">Long&nbsp;Beach</a></li>
+      <li><a href="#Registry">Registry</a></li>
+      <li><a href="#Photos">Photos</a></li>
+    </ul>
+
+  </div><!-- #menu -->
   
   <section id="Wedding">
     <div class="row">
@@ -189,7 +181,7 @@
     </div>
   </section><!-- #Photos -->
   
-</div><!-- .container -->
+</div><!-- .main -->
 
 <div class="container intro text-center">
 
