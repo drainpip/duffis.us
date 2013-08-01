@@ -72,19 +72,41 @@
 
       <h1 class="cursive">R.S.V.P.</h1>
 
-      <div class="col-sm-10 col-lg-10">
+      <div class="col-12">
       
       <?php
-			if (isset($_POST['RSVP_Submit'])) {
-				$to = "shane_duff@asus.com";
-				$subject = "RSVP from [name]";
-				$message = $_POST['email'];
-				$from = "RSVP Form<rsvp@duffis.us>";
-				$headers = "From:" . $from;
-				mail($to,$subject,$message,$headers);
-				echo "Mail Sent.";
-			}
-			?>
+      $rsvp = false;
+      if (isset($_POST['RSVP_Submit'])) {
+        $to = 'shane_duff@asus.com';
+        $subject = 'RSVP from [name]';
+        $message = '
+        <html>
+          <head>
+            <title>Nonsensical Latin</title>
+            <style type="text/css">
+              html, body {font-family:sans-serif;}
+            </style>
+          </head>
+          <body>
+            <h1>Nonsensical Latin</h1>
+            <p>Test email from '.$_POST['email'].'</p>
+          </body>
+        </html>
+        ';
+        $headers = "From: RSVP Form<me@shaneis.me>\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        mail($to,$subject,$message,$headers);
+        $message = '<h3 class="alert alert-success">Thank you for sending in this information. We look forward to celebrating with you!</h3>';
+        $rsvp = 'sent';
+      }
+      
+      if (isset($_POST['RSVP_guests'])) {
+        $rsvp = 'main_form';
+      }
+      
+      if ($rsvp === 'main_form') {
+      ?>
       
         <form action="#RSVP" method="post" class="form-horizontal">
           <div class="form-group">
@@ -100,7 +122,43 @@
           </div>
         </form>
         
-      </div><!-- .col-sm-10.col-lg-10 -->
+      <?php
+      } else if (!$rsvp) {
+      ?>
+      
+        <form action="#RSVP" method="post" class="form-horizontal">
+          <legend>Please enter the number of guests in your party</legend>
+          <div class="form-group">
+            <label for="guests" class="col-sm-2 col-lg-2 control-label">Guests</label>
+            <div class="col-sm-3 col-lg-3">
+              <select name="guests" class="form-control">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10 col-lg-10 col-offset-2">
+              <button type="submit" name="RSVP_guests" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+        </form>
+              
+      <?php
+      } else {
+        echo $message;
+      }
+      ?>
+      
+        
+      </div><!-- .col-12 -->
 
     </div><!-- .row -->
   </section><!-- #RSVP -->
