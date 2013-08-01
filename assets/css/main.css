@@ -5,8 +5,11 @@ body {
 a, a:focus, a:active {
   border:0;
 }
-h1, h2, h3, h4, h5, strong {
+strong {
   font-weight:700;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
 }
 .container {
   position:relative;
@@ -68,8 +71,9 @@ section.active {
 section h1:first-child {
   margin-left:15px;
   margin-right:15px;
-  font-family: 'Old Standard TT', serif;
-  font-weight:400;
+}
+.cursive {
+  font-family: 'Parisienne', serif;
 }
 .nav {
   margin-top:20px;

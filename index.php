@@ -12,7 +12,7 @@
     <meta name="msapplication-tooltip" content="DI.U" />
     <meta name="msapplication-window" content="width=1024;height=768" />
     <meta name="msapplication-starturl" content="http://duffis.us" />
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Parisienne|Oswald' rel='stylesheet' type='text/css'>
     <link href="assets/css/bootstrap.3.0.0-b11.css" rel="stylesheet" media="screen"> 
     <link href="assets/css/main.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
@@ -51,7 +51,7 @@
   <section id="Wedding">
     <div class="row">
 
-      <h1>The Wedding</h1>
+      <h1 class="cursive">The Wedding</h1>
 
       <div class="col-sm-6 col-lg-6">
       
@@ -61,33 +61,30 @@
         
         <p>Betty H. Reckas Cultural Center</p>
         
-        <p>5761 E Colorado Street<br>Long Beach, CA<br>90814</p>
+        <address>
+          5761 E Colorado Street<br>
+          Long Beach, CA<br>
+          90814<br>
+        </address>
         
         <p>Reception immediately following</p>
         
         <p>Cocktail attire</p>
         
-        <h2><a href="#RSVP" class="RSVP-modal">Please R.S.V.P.</a></h2>
+        <h2 class="cursive"><a href="#RSVP" class="RSVP-modal">Please R.S.V.P.</a></h2>
         
         <p>We look forward to celebrating with you!</p>
         
         <p>Navigate through our website to see <a href="#Photos" title="Pictures of us">photos, <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in the Long Beach area.</p>
         
       </div><!-- .col-sm-6.col-lg-6 -->
-      
-      <div class="col-sm-6 col-lg-6">
-        
-        <h3>Click map to view interactive</h3>
-        
-        <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps"><img src="assets/img/wedding-map.jpg"></a>
-        
-      </div><!-- .col-sm-6.col-lg-6 -->
+
     </div><!-- .row -->
   </section><!-- #Wedding -->
   
   <section id="LBC">
     <div class="row">
-      <h1>We heart LBC</h1>
+      <h1 class="cursive">We heart LBC</h1>
       <div class="col-sm-6 col-lg-6">
       
         <h3>Our favorite restaurants</h3>
@@ -174,7 +171,7 @@
   
   <section id="Registry">
     <div class="row">
-      <h1>Registry</h1>
+      <h1 class="cursive">Registry</h1>
       <div class="col-sm-6 col-lg-6">
       </div>
       <div class="col-sm-6 col-lg-6">
@@ -184,7 +181,7 @@
   
   <section id="Photos">
     <div class="row">
-      <h1>Us on film</h1>
+      <h1 class="cursive">Us on film</h1>
       <div class="col-sm-6 col-lg-6">
       </div>
       <div class="col-sm-6 col-lg-6">
@@ -198,7 +195,7 @@
 
   <img src="assets/img/invite-heart.jpg">
   
-  <h2><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
+  <h2 class="cursive"><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
   
   <h4><a href="#Wedding" id="continue">Continue to site</a></h4>
 
