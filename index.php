@@ -33,6 +33,7 @@
     
     <ul class="nav">
       <li><a href="#Wedding">Wedding</a></li>
+      <li><a href="#RSVP">RSVP</a></li>
       <li><a href="#LBC">Long&nbsp;Beach</a></li>
       <li><a href="#Registry">Registry</a></li>
       <li><a href="#Photos">Photos</a></li>
@@ -47,37 +48,41 @@
 
       <div class="col-sm-10 col-lg-10">
       
-        <h3>Where and when</h3>
+        <h3>Friday,&nbsp;October&nbsp;4th&nbsp;at&nbsp;5:30&nbsp;in&nbsp;the&nbsp;evening.</h3>
         
-        <p>Friday, October 4th at 5:30 in the evening.</p>
-        
-        <p>Betty H. Reckas Cultural Center</p>
+        <p>Betty H. Reckas Cultural Center - <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps">Map</a></p>
         
         <address>
           5761 E Colorado Street<br>
           Long Beach, CA<br>
-          90814<br>
-          <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps">Map</a>
+          90814
         </address>
         
-        <p>Reception immediately following</p>
-        
-        <p>Cocktail attire</p>
-        
-        <h2 class="cursive"><a href="#RSVP" class="RSVP-modal">Please R.S.V.P.</a></h2>
+        <h2 class="cursive"><a href="#RSVP">Please&nbsp;R.S.V.P.&nbsp;by&nbsp;September&nbsp;15th</a></h2>
         
         <p>We look forward to celebrating with you!</p>
-        
-        <p>Navigate through our website to see <a href="#Photos" title="Pictures of us">photos, <a href="#LBC" title="Our recommendations">hotel recommendations</a> and our <a href="#LBC" title="Restaurants and other things">favorite places</a> in the Long Beach area.</p>
         
       </div><!-- .col-sm-10.col-lg-10 -->
 
     </div><!-- .row -->
   </section><!-- #Wedding -->
   
+  <section id="RSVP">
+    <div class="row">
+
+      <h1 class="cursive">R.S.V.P.</h1>
+
+      <div class="col-sm-10 col-lg-10">
+      
+        
+      </div><!-- .col-sm-10.col-lg-10 -->
+
+    </div><!-- .row -->
+  </section><!-- #RSVP -->
+  
   <section id="LBC">
     <div class="row">
-      <h1 class="cursive">We heart LBC</h1>
+      <h1 class="cursive">We Heart LBC</h1>
       <div class="col-sm-6 col-lg-6">
       
         <h3>Our favorite restaurants</h3>
@@ -174,7 +179,7 @@
   
   <section id="Photos">
     <div class="row">
-      <h1 class="cursive">Us on film</h1>
+      <h1 class="cursive">Us On Film</h1>
       <div class="col-sm-6 col-lg-6">
       </div>
       <div class="col-sm-6 col-lg-6">
@@ -183,16 +188,6 @@
   </section><!-- #Photos -->
   
 </div><!-- .main -->
-
-<div class="container intro text-center">
-
-  <img src="assets/img/invite-heart.jpg">
-  
-  <h2 class="cursive"><a href="#RSVP" class="RSVP-modal">R.S.V.P.</a></h2>
-  
-  <h4><a href="#Wedding" id="continue">Continue to site</a></h4>
-
-</div><!-- .container.intro -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>

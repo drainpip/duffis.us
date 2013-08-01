@@ -2,26 +2,30 @@ $(document).ready(function() {
   "use strict";
   var mobile, i, url, img;
   var resize = false;
-	
+  
   var hash = window.location.hash;  
-	if (hash !== '') {
-		$('.intro').fadeOut(0);
-		$('.main').fadeIn(0);
-		if ($('#bg').is(':hidden')) {
-			$("#bg").fadeIn("slow");
-		}
-	}
+  if (hash !== '') {
+    $('.intro').fadeOut(0);
+    $('.main').fadeIn(0);
+    if ($('#bg').is(':hidden')) {
+      $("#bg").fadeIn("slow");
+    }
+  }
   $(window).bind( 'hashchange', function() {
-		var hash = window.location.hash;
+    var hash = window.location.hash;
     // Detect any hash change and update accordingly. I'll research alternatives to a hard-coded if statement like this.
     if (hash === "#Wedding") {
       i = 1;
-    } else if (hash === "#LBC") {
+    } else if (hash === "#RSVP") {
       i = 2;
-    } else if (hash === "#Registry") {
+    } else if (hash === "#LBC") {
       i = 3;
-    } else if (hash === "#Photos") {
+    } else if (hash === "#Registry") {
       i = 4;
+    } else if (hash === "#Photos") {
+      i = 5;
+    } else if (hash === "") {
+      introFadeIn();
     } else {
       i = 1;
     }
@@ -29,14 +33,12 @@ $(document).ready(function() {
     fadingPages();
   });
   $(window).trigger( 'hashchange' ); // Trigger on load in case they come in with a hash. 
-	
-	$('#continue').click(function() {
-    $('.intro').fadeOut(500,function() {
-      $('#bg').fadeIn(1000,function() {
-        $('.main').fadeIn();
-      });
+  
+  function introFadeIn() {
+    $('#bg').fadeIn(1000,function() {
+      $('.main').fadeIn();
     });
-  });
+  }
   
   function fadingPages() {
     checkDesktop();
@@ -82,7 +84,7 @@ $(document).ready(function() {
       $(".main-nav").removeAttr("style");
     }
   };
-	
+  
   // Run on DOM ready + if window is resized
   checkDesktop();
   mainNav();
