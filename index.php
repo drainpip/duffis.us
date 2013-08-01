@@ -74,8 +74,30 @@
 
       <div class="col-sm-10 col-lg-10">
       
-        <form action="#RSVP" method="post">
-        
+      <?php
+			if (isset($_POST['RSVP_Submit'])) {
+				$to = "shane_duff@asus.com";
+				$subject = "RSVP from [name]";
+				$message = $_POST['email'];
+				$from = "RSVP Form<rsvp@duffis.us>";
+				$headers = "From:" . $from;
+				mail($to,$subject,$message,$headers);
+				echo "Mail Sent.";
+			}
+			?>
+      
+        <form action="#RSVP" method="post" class="form-horizontal">
+          <div class="form-group">
+            <label for="email" class="col-sm-2 col-lg-2 control-label">Email</label>
+            <div class="col-sm-10 col-lg-10">
+              <input type="text" name="email" class="form-control" placeholder="you@whatever.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-10 col-lg-10 col-offset-2">
+              <button type="submit" name="RSVP_Submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
         </form>
         
       </div><!-- .col-sm-10.col-lg-10 -->

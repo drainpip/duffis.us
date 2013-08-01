@@ -98,7 +98,9 @@ section h1:first-child {
 .nav > li > a:hover {
   text-decoration:underline;
 }
-
+.form-horizontal {
+  min-width:500px;
+}
 @media screen and (max-width:400px) {
   section {
     position:relative;
