@@ -34,7 +34,7 @@
     <ul class="nav">
       <li><a href="#Wedding">Wedding</a></li>
       <li><a href="#RSVP">RSVP</a></li>
-      <li><a href="#LBC">Long&nbsp;Beach</a></li>
+      <li><a href="#LBC">Long Beach</a></li>
       <li><a href="#Registry">Registry</a></li>
       <li><a href="#Photos">Photos</a></li>
     </ul>
@@ -46,9 +46,9 @@
 
       <h1 class="cursive">The Wedding</h1>
 
-      <div class="col-sm-10 col-lg-10">
+      <div class="col-12">
       
-        <h3>Friday,&nbsp;October&nbsp;4th&nbsp;at&nbsp;5:30&nbsp;in&nbsp;the&nbsp;evening.</h3>
+        <h3>Friday, October 4th at 5:30 in the evening.</h3>
         
         <p>Betty H. Reckas Cultural Center - <a href="https://www.google.com/maps?q=5761+E+Colorado+St,+Long+Beach,+CA+90814&sll=33.76997969999964,-118.11925818020964&sspn=0.009586673670415446,0.020597766200602836&t=m&dg=opt&hnear=5761+E+Colorado+St,+Long+Beach,+Los+Angeles,+California+90814&z=16" target="_blank" title="View on Google Maps">Map</a></p>
         
@@ -58,7 +58,7 @@
           90814
         </address>
         
-        <h2 class="cursive"><a href="#RSVP">Please&nbsp;R.S.V.P.&nbsp;by&nbsp;September&nbsp;15th</a></h2>
+        <h2 class="cursive"><a href="#RSVP">Please R.S.V.P. by September 15th</a></h2>
         
         <p>We look forward to celebrating with you!</p>
         
@@ -368,8 +368,12 @@
     <div class="row">
       <h1 class="cursive">Registry</h1>
       <div class="col-sm-6 col-lg-6">
+        <div class="logo-container"><a href="http://www.amazon.com/registry/wedding/UN1TJHAB2LNF" title="Registry for Shane &amp; Rachel at Amazon"><img src="assets/img/amazon.jpg"></a></div>
+        <p>Amazon has a list of various items from kitchen to camera lenses.</p>
       </div>
       <div class="col-sm-6 col-lg-6">
+        <div class="logo-container"><a href="http://www.crateandbarrel.com/Gift-Registry/Rachel-Freistat-and-Shane-Duff/r5047712" title="Registry for Shane &amp; Rachel at Crate &amp; Barrel"><img src="assets/img/crate-and-barrel.jpg"></a></div>
+        <p>Crate &amp; Barrel contains a list of products ranging from kitchen to bedroom.</p>
       </div>
     </div>
   </section><!-- Registry -->
