@@ -101,6 +101,9 @@ section h1:first-child {
 .form-horizontal {
   min-width:500px;
 }
+legend.cursive {
+	font-size:28px;
+}
 @media screen and (max-width:400px) {
   section {
     position:relative;

@@ -103,12 +103,20 @@
       
       if (isset($_POST['RSVP_guests'])) {
         $rsvp = 'main_form';
+        $guests = $_POST['guests'];
       }
       
       if ($rsvp === 'main_form') {
       ?>
       
         <form action="#RSVP" method="post" class="form-horizontal">
+          <legend>Primary contact information</legend>
+          <div class="form-group">
+            <label for="primary-name" class="col-sm-2 col-lg-2 control-label">Name</label>
+            <div class="col-sm-10 col-lg-10">
+              <input type="text" name="primary-name" class="form-control" placeholder="First and Last">
+            </div>
+          </div>
           <div class="form-group">
             <label for="email" class="col-sm-2 col-lg-2 control-label">Email</label>
             <div class="col-sm-10 col-lg-10">
@@ -116,7 +124,73 @@
             </div>
           </div>
           <div class="form-group">
-            <div class="col-sm-10 col-lg-10 col-offset-2">
+            <label for="phone" class="col-sm-2 col-lg-2 control-label">Phone</label>
+            <div class="col-sm-10 col-lg-10">
+              <input type="text" name="phone" class="form-control" placeholder="(000) 000-0000">
+            </div>
+          </div>
+          <?php 
+          if ($guests <> '0') {
+            if ($guests > '1') {
+          ?>
+          <legend>Guest information</legend>
+          <?php
+              for ($i = 1; $i < $guests; $i++) {
+          ?>
+              <div class="form-group">
+                <label for="guest-<?php echo $i ?>-name" class="col-sm-2 col-lg-2 control-label">Name</label>
+                <div class="col-sm-10 col-lg-10">
+                  <input type="text" name="guest-<?php echo $i ?>-name" class="form-control" placeholder="First and Last">
+                </div>
+              </div> 
+          <?php
+              }
+            }
+          ?>
+          <legend class="cursive">Provencial Chicken</legend>
+          <p class="help-block">Breast of chicken stuffed with spinach, mushrooms, wild rice, and pine nuts with a chardonnay leek sauce.</p>
+          <div class="form-group">
+            <label for="chicken" class="col-sm-2 col-lg-2 control-label">Plates</label>
+            <div class="col-sm-2 col-lg-2">
+              <select name="chicken" class="form-control">
+                <?php
+                for ($i = 0; $i <= $guests; $i++) {
+                ?>
+                <option value="<?php echo $i ?>"><?php echo $i ?></option>
+                <?php
+                }
+                ?>
+              </select>
+            </div>
+          </div>
+          <legend class="cursive">Eggplant Napoleon</legend>
+          <p class="help-block">Parmesan breaded eggplant stack with a boursin and goat cheese mousse.</p>
+          <div class="form-group">
+            <label for="eggplant" class="col-sm-2 col-lg-2 control-label">Plates</label>
+            <div class="col-sm-2 col-lg-2">
+              <select name="eggplant" class="form-control">
+                <?php
+                for ($i = 0; $i <= $guests; $i++) {
+                ?>
+                <option value="<?php echo $i ?>"><?php echo $i ?></option>
+                <?php
+                }
+                ?>
+              </select>
+            </div>
+          </div>
+          <?php
+          }
+          ?>          
+          <legend>Notes</legend>
+          <div class="form-group">
+            <div class="col-12">
+              <textarea class="form-control" rows="3"></textarea>
+              <p class="help-block">Anything we missed?</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="text-center">
               <button type="submit" name="RSVP_Submit" class="btn btn-default">Submit</button>
             </div>
           </div>
