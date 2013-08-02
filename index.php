@@ -77,7 +77,7 @@
       <?php
       $rsvp = false;
       if (isset($_POST['RSVP_Submit'])) {
-        $to = 'shane_duff@asus.com';
+        $to = 'me@shaneis.me';
         $subject = 'RSVP from [name]';
         $message = '
         <html>
@@ -114,19 +114,19 @@
           <div class="form-group">
             <label for="primary-name" class="col-sm-2 col-lg-2 control-label">Name</label>
             <div class="col-sm-10 col-lg-10">
-              <input type="text" name="primary-name" class="form-control" placeholder="First and Last">
+              <input type="text" name="primary-name" class="form-control" placeholder="First and Last" required>
             </div>
           </div>
           <div class="form-group">
             <label for="email" class="col-sm-2 col-lg-2 control-label">Email</label>
             <div class="col-sm-10 col-lg-10">
-              <input type="text" name="email" class="form-control" placeholder="you@whatever.com">
+              <input type="text" name="email" class="form-control" placeholder="you@whatever.com" required>
             </div>
           </div>
           <div class="form-group">
             <label for="phone" class="col-sm-2 col-lg-2 control-label">Phone</label>
             <div class="col-sm-10 col-lg-10">
-              <input type="text" name="phone" class="form-control" placeholder="(000) 000-0000">
+              <input type="text" name="phone" class="form-control" placeholder="(000) 000-0000" required>
             </div>
           </div>
           <?php 
@@ -140,7 +140,7 @@
               <div class="form-group">
                 <label for="guest-<?php echo $i ?>-name" class="col-sm-2 col-lg-2 control-label">Name</label>
                 <div class="col-sm-10 col-lg-10">
-                  <input type="text" name="guest-<?php echo $i ?>-name" class="form-control" placeholder="First and Last">
+                  <input type="text" name="guest-<?php echo $i ?>-name" class="form-control" placeholder="First and Last" required>
                 </div>
               </div> 
           <?php
@@ -202,6 +202,7 @@
       
         <form action="#RSVP" method="post" class="form-horizontal">
           <legend>Please enter the number of guests in your party</legend>
+          <p class="help-block">If you cannot attend, please select 0.</p>
           <div class="form-group">
             <label for="guests" class="col-sm-2 col-lg-2 control-label">Guests</label>
             <div class="col-sm-3 col-lg-3">

@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url("../img/bg-1.jpg") top center no-repeat;
+  background: url("../img/bg-3.jpg") top center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -88,7 +88,7 @@ section h1:first-child {
   margin-top:20px;
 }
 .nav li.active {
-  
+  text-decoration:underline;
 }
 .nav a {
   font-size:14px;
@@ -103,6 +103,9 @@ section h1:first-child {
 }
 legend.cursive {
 	font-size:28px;
+}
+textarea {
+	resize:vertical;
 }
 @media screen and (max-width:400px) {
   section {
