@@ -104,7 +104,7 @@
         
         if ($valid_email) {
           $to = 'rfreistat@me.com';
-          $subject = 'RSVP from [name]';
+          $subject = 'RSVP from '.$primary_name;
           $message = '
           <html>
             <head>
