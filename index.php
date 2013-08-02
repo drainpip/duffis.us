@@ -77,28 +77,68 @@
       <?php
       $rsvp = false;
       if (isset($_POST['RSVP_Submit'])) {
-        $to = 'me@shaneis.me';
-        $subject = 'RSVP from [name]';
-        $message = '
-        <html>
-          <head>
-            <title>Nonsensical Latin</title>
-            <style type="text/css">
-              html, body {font-family:sans-serif;}
-            </style>
-          </head>
-          <body>
-            <h1>Nonsensical Latin</h1>
-            <p>Test email from '.$_POST['email'].'</p>
-          </body>
-        </html>
-        ';
-        $headers = "From: RSVP Form<me@shaneis.me>\r\n";
-        $headers .= "MIME-Version: 1.0\r\n";
-        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-        mail($to,$subject,$message,$headers);
-        $message = '<h3 class="alert alert-success">Thank you for sending in this information. We look forward to celebrating with you!</h3>';
-        $rsvp = 'sent';
+        $primary_name = $_POST['primary-name'];
+        $email = $_POST['email'];
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+          $valid_email = true;
+        } else {
+          $valid_email = false;
+        }
+        $phone = $_POST['phone'];
+        $chicken = $_POST['chicken'];
+        $eggplant = $_POST['eggplant'];
+        $guests = $_POST['guests'];
+        
+        $guest_body = '';
+        if ($guests > 1) {
+          for ($i = 1; $i < $guests; $i++) {
+            $name = $_POST['guest-'.$i.'-name'];
+            $guest_body .= '<p>Guest #'.$i.': '.$name.'</p>';
+          }
+        }
+        
+        if (isset($_POST['notes'])) {
+          $notes = '<h4>Notes</h4>';
+          $notes .= $_POST['notes'];
+        }
+        
+        if ($valid_email) {
+          $to = 'rfreistat@me.com';
+          $subject = 'RSVP from [name]';
+          $message = '
+          <html>
+            <head>
+              <title>Nonsensical Latin</title>
+              <style type="text/css">
+                html, body {font-family:sans-serif;}
+              </style>
+            </head>
+            <body>
+              <h1>R.S.V.P. from '.$primary_name.'</h1>
+              <p>Email: '.$email.'</p>
+              <p>Phone: '.$phone.'</p>
+              '.$guest_body.'
+              <p>Chicken: '.$chicken.'</p>
+              <p>Eggplant: '.$eggplant.'</p>
+              '.$notes.'
+            </body>
+          </html>
+          ';
+          $headers = "From: RSVP Form<me@shaneis.me>\r\n";
+          $headers .= "MIME-Version: 1.0\r\n";
+          $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+          mail($to,$subject,$message,$headers);
+          
+          if ($guests > 0) {
+            echo '<h3 class="alert alert-success">Thank you for sending in this information. We look forward to celebrating with you!</h3>';
+          } else {
+            echo '<h3 class="alert alert-success">We\'re sorry you can\'t come, but thanks for submitting this R.S.V.P.</h3>';
+          }
+          $rsvp = 'sent';
+        } else {
+          $rsvp = 'main_form';
+          echo '<h3 class="alert alert-danger">Could you try again? I don\'t think that\'s a valid email.</h3>';
+        }
       }
       
       if (isset($_POST['RSVP_guests'])) {
@@ -185,13 +225,14 @@
           <legend>Notes</legend>
           <div class="form-group">
             <div class="col-12">
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea class="form-control" name="notes" rows="3"></textarea>
               <p class="help-block">Anything we missed?</p>
             </div>
           </div>
           <div class="form-group">
             <div class="text-center">
-              <button type="submit" name="RSVP_Submit" class="btn btn-default">Submit</button>
+              <input type="hidden" name="guests" value="<?php echo $guests; ?>">
+              <button type="submit" name="RSVP_Submit" value="Submit" class="btn btn-default">Submit</button>
             </div>
           </div>
         </form>
@@ -221,14 +262,12 @@
           </div>
           <div class="form-group">
             <div class="col-sm-10 col-lg-10 col-offset-2">
-              <button type="submit" name="RSVP_guests" class="btn btn-default">Submit</button>
+              <button type="submit" name="RSVP_guests" value="Submit" class="btn btn-default">Submit</button>
             </div>
           </div>
         </form>
               
       <?php
-      } else {
-        echo $message;
       }
       ?>
       

@@ -98,6 +98,10 @@ section h1:first-child {
 .nav > li > a:hover {
   text-decoration:underline;
 }
+.alert {
+	background-color:transparent !important;
+	border:none !important;
+}
 .form-horizontal {
   min-width:500px;
 }
