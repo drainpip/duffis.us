@@ -16,8 +16,8 @@ h1, h2, h3, h4, h5 {
 }
 .row {
   position:relative;
-	margin-left:0;
-	margin-right:0;
+  margin-left:0;
+  margin-right:0;
 }
 #menu {
   position:fixed;
@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5 {
 }
 .nav > li > a:hover {
   text-decoration:underline;
+  background-color:transparent;
 }
 #bg {
   position: fixed;
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5 {
   display:none;
 }
 section {
-	display:none;
+  display:none;
   position:absolute;
   top:71px;
   left:160px;
@@ -71,7 +72,7 @@ section > * {
   opacity:1;
 }
 section.active {
-	display:block;
+  display:block;
 }
   #Home {
     z-index:5;
@@ -100,17 +101,17 @@ section h1:first-child {
   font-family: 'Parisienne', serif;
 }
 .alert {
-	background-color:transparent !important;
-	border:none !important;
+  background-color:transparent !important;
+  border:none !important;
 }
 .form-horizontal {
   min-width:500px;
 }
 legend.cursive {
-	font-size:28px;
+  font-size:28px;
 }
 textarea {
-	resize:vertical;
+  resize:vertical;
 }
 @media screen and (max-width:400px) {
   section {

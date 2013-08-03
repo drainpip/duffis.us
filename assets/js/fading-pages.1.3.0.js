@@ -85,9 +85,14 @@ $(document).ready(function() {
     }
   };
   
+  function checkBG() {
+    $("#bg").css("min-height", $(window).height() + "px");
+  };  
+  
   // Run on DOM ready + if window is resized
   checkDesktop();
   mainNav();
+  checkBG();
 
   $(window).on("resize", function() {
     resize = true;
@@ -95,5 +100,6 @@ $(document).ready(function() {
   });            
   $(window).on("resize scroll", function() {
     mainNav();
+    checkBG();
   });  
 });
