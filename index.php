@@ -14,6 +14,7 @@
     <meta name="msapplication-starturl" content="http://duffis.us" />
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Parisienne|Oswald' rel='stylesheet' type='text/css'>
     <link href="assets/css/bootstrap.3.0.0.RC1.css" rel="stylesheet" media="screen">
+    <link href="assets/css/bootstrap-glyphicons.1.0.0.css" rel="stylesheet" media="screen">
     <link href="assets/css/main.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -31,7 +32,9 @@
   
     <h1>Duff is us</h1>
     
-    <ul class="nav">
+    <h2 class="visible-sm mobile-menu"><a href="#Wedding"><span class="glyphicon glyphicon-chevron-down"></span></a></h2>
+
+    <ul class="nav hidden-sm">
       <li><a href="#Wedding">Wedding</a></li>
       <li><a href="#RSVP">RSVP</a></li>
       <li><a href="#LBC">Long Beach</a></li>

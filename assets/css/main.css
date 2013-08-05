@@ -126,6 +126,16 @@ textarea {
     left:auto;
     z-index:10;
   }
+  .mobile-menu {
+    position:absolute;
+    top:5px;
+    right:20px;
+    margin:0;
+  }
+  .mobile-menu > a {
+    color:#000;
+    text-decoration:none;
+  }
   section {
     display:block;
     position:relative;
