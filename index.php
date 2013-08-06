@@ -326,6 +326,13 @@
       
         <h3>Good hotels near the ceremony</h3>
         
+        <h4><a href="http://www.yelp.com/biz/renaissance-long-beach-hotel-long-beach" title="Renaissance, Long Beach on Yelp">Renaissance, Long Beach</a></h4>
+        <p>111 East Ocean Blvd.<br>Long Beach, CA<br>90802</p>
+        <p>562.437.5900</p>
+        <p>This is where the bride and groom will be staying, find a good deal on <a href="http://www.hotels.com/ho105697/renaissance-long-beach-hotel-long-beach-united-states/">hotels.com</a></p>
+        
+        <hr>
+        
         <h4><a href="http://www.yelp.com/biz/the-westin-long-beach-long-beach" title="The Westin, Long Beach on Yelp">The Westin, Long Beach</a></h4>
         <p>333 East Ocean Blvd.<br>Long Beach, CA<br>90802</p>
         <p>562.436.3000, reservations: 888.627.8403</p>
