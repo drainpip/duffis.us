@@ -385,9 +385,8 @@
   <section id="Photos">
     <div class="row">
       <h1 class="cursive">Us On Film</h1>
-      <div class="col-sm-6 col-lg-6">
-      </div>
-      <div class="col-sm-6 col-lg-6">
+      <div class="col-6 text-center">
+        
       </div>
     </div>
   </section><!-- #Photos -->
