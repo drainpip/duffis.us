@@ -370,13 +370,13 @@
   <section id="Registry">
     <div class="row">
       <h1 class="cursive">Registry</h1>
-      <div class="col-sm-6 col-lg-6">
+      <div class="col-sm-6 col-lg-6 text-center">
         <div class="logo-container"><a href="http://www.amazon.com/registry/wedding/UN1TJHAB2LNF" title="Registry for Shane &amp; Rachel at Amazon"><img src="assets/img/amazon.jpg"></a></div>
       </div>
-      <div class="col-sm-6 col-lg-6">
+      <div class="col-sm-6 col-lg-6 text-center">
         <div class="logo-container"><a href="http://www.crateandbarrel.com/Gift-Registry/Rachel-Freistat-and-Shane-Duff/r5047712" title="Registry for Shane &amp; Rachel at Crate &amp; Barrel"><img src="assets/img/crate-and-barrel.jpg"></a></div>
       </div>
-      <div class="col-sm-6 col-lg-6">
+      <div class="col-sm-6 col-lg-6 col-offset-3 text-center">
         <div class="logo-container"><a href="http://www.westelm.com/wishlist/dck5wqx8xn/wishlist.html" title="Registry for Shane &amp; Rachel at West Elm"><img src="assets/img/west-elm.jpg"></a></div>
       </div>
     </div>
