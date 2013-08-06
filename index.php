@@ -385,8 +385,13 @@
   <section id="Photos">
     <div class="row">
       <h1 class="cursive">Us On Film</h1>
-      <div class="col-6 text-center">
-        
+      <div class="col-12 slideshow">
+        <img src="assets/img/photos/him-1.jpg" class="portrait">
+        <img src="assets/img/photos/him-2.jpg">
+        <img src="assets/img/photos/him-3.jpg" class="portrait">
+        <img src="assets/img/photos/him-4.jpg">
+        <img src="assets/img/photos/him-5.jpg" class="portrait">
+        <img src="assets/img/photos/him-6.jpg">
       </div>
     </div>
   </section><!-- #Photos -->
@@ -397,6 +402,7 @@
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
 <script src="assets/js/jquery.ba-bbq.min.js"></script>
 <script src="assets/js/fading-pages.1.3.0.js"></script>
+<script src="assets/js/jquery-cycle.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -405,6 +411,9 @@
 
   ga('create', 'UA-40064172-1', 'duffis.us');
   ga('send', 'pageview');
+	$(document).ready(function() {
+    $('.slideshow').cycle();
+  });
 </script>
 </body>
 </html>

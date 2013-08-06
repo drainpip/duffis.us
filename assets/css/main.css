@@ -64,9 +64,8 @@ section {
   top:71px;
   left:160px;
   padding-bottom:20px;
-  opacity:0.90;
   box-shadow:3px 3px 13px #666 !important;
-  background:#fff;
+  background:url('../img/white-bg-90.png') transparent;
 }
 section > * {
   opacity:1;
@@ -88,7 +87,19 @@ section.active {
   }
   #Photos {
     z-index:1;
+    height:600px;
+    width:600px;
   }
+    #Photos img {
+      position:absolute;
+      top:10px;
+      left:50px;
+      max-height:500px;
+      max-width:500px;
+    }
+    #Photos img.portrait {
+      left:120px;
+    }
 section h1:first-child {
   margin-left:15px;
   margin-right:15px;
