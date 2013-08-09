@@ -427,7 +427,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
 <script src="assets/js/jquery.ba-bbq.min.js"></script>
-<script src="assets/js/fading-pages.1.3.0.js"></script>
+<script src="assets/js/fading-pages.1.3.1.js"></script>
 <script src="assets/js/jquery-cycle.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -437,9 +437,6 @@
 
   ga('create', 'UA-40064172-1', 'duffis.us');
   ga('send', 'pageview');
-	$(document).ready(function() {
-    $('.slideshow').cycle();
-  });
 </script>
 </body>
 </html>
