@@ -72,6 +72,7 @@ $(document).ready(function() {
   function checkDesktop() { //Test window size, sets mobile bit + adjusts animations on mobile to desktop transitions
     if (($(window).width()) < 768) {
       mobile = true;
+      $('.slideshow').cycle();
     } else {
       mobile = false;
     }
