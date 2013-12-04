@@ -32,15 +32,15 @@ $(document).ready(function() {
   $(window).trigger( 'hashchange' ); // Trigger on load in case they come in with a hash. 
   
   function introFadeIn() {
-		$('<img>').attr('src',function(){
-				var imgUrl = $('#bg').css('background-image');
-				imgUrl = imgUrl .substring(4, imgUrl .length-1);
-				return imgUrl;
-		}).load(function(){
-			$('#bg').fadeIn(1000,function() {
-				$('.main').fadeIn();
-			});
-		});		
+    $('<img>').attr('src',function(){
+        var imgUrl = $('#bg').css('background-image');
+        imgUrl = imgUrl .substring(4, imgUrl .length-1);
+        return imgUrl;
+    }).load(function(){
+      $('#bg').fadeIn(1000,function() {
+        $('.main').fadeIn();
+      });
+    });    
   }
   
   function fadingPages() {
@@ -99,6 +99,7 @@ $(document).ready(function() {
   checkBG();
 
   $(window).on("resize", function() {
+		alert('hi');
     resize = true;
     fadingPages();
   });            
