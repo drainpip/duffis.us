@@ -15,7 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Parisienne|Oswald' rel='stylesheet' type='text/css'>
     <link href="assets/css/bootstrap.3.0.0.RC1.css" rel="stylesheet" media="screen">
     <link href="assets/css/bootstrap-glyphicons.1.0.0.css" rel="stylesheet" media="screen">
-    <link href="assets/css/main.css" rel="stylesheet" media="screen">    
+    <link href="assets/css/main.1.1.0.css" rel="stylesheet" media="screen">    
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond/respond.js"></script>
@@ -23,6 +23,14 @@
 </head>
 
 <body>
+
+<div class="loading">
+  <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+</div>
 
 <div id="bg"></div>
 
