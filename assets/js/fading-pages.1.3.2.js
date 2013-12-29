@@ -99,7 +99,6 @@ $(document).ready(function() {
   checkBG();
 
   $(window).on("resize", function() {
-		alert('hi');
     resize = true;
     fadingPages();
   });            
