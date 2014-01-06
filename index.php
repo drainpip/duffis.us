@@ -45,7 +45,6 @@
     <ul class="nav hidden-sm">
       <li><a href="#Wedding">10-4-13</a></li>
       <li><a href="#LBC">Long Beach</a></li>
-      <li><a href="#Photos">Photos</a></li>
     </ul>
 
   </div><!-- #menu -->
@@ -128,46 +127,12 @@
     </div><!-- .row -->
   </section><!-- #LBC -->
   
-  <section id="Photos">
-    <div class="row">
-      <h1 class="cursive">Us On Film</h1>
-      <div class="col-12 slideshow">
-        <img src="assets/img/photos/him-1.jpg" class="portrait">
-        <img src="assets/img/photos/him-2.jpg">
-        <img src="assets/img/photos/him-3.jpg" class="portrait">
-        <img src="assets/img/photos/him-4.jpg">
-        <img src="assets/img/photos/him-5.jpg" class="portrait">
-        <img src="assets/img/photos/him-6.jpg">
-        <img src="assets/img/photos/her-1.jpg">
-        <img src="assets/img/photos/her-2.jpg" class="portrait">
-        <img src="assets/img/photos/her-3.jpg" class="portrait">
-        <img src="assets/img/photos/her-4.jpg">
-        <img src="assets/img/photos/her-5.jpg" class="portrait">
-        <img src="assets/img/photos/her-6.jpg" class="portrait">
-        <img src="assets/img/photos/us-1.jpg" class="portrait">
-        <img src="assets/img/photos/us-2.jpg" class="portrait">
-        <img src="assets/img/photos/us-3.jpg">
-        <img src="assets/img/photos/us-4.jpg">
-        <img src="assets/img/photos/us-5.jpg">
-        <img src="assets/img/photos/us-6.jpg">
-        <img src="assets/img/photos/us-7.jpg" class="portrait">
-        <img src="assets/img/photos/us-8.jpg">
-        <img src="assets/img/photos/us-9.jpg">
-        <img src="assets/img/photos/us-10.jpg">
-        <img src="assets/img/photos/us-11.jpg">
-        <img src="assets/img/photos/us-12.jpg">
-        <img src="assets/img/photos/us-13.jpg">
-      </div>
-    </div>
-  </section><!-- #Photos -->
-  
 </div><!-- .main -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/jquery.1.9.1.min.js">\x3C/script>')</script>
 <script src="assets/js/jquery.ba-bbq.min.js"></script>
-<script src="assets/js/fading-pages.1.3.2.js"></script>
-<script src="assets/js/jquery-cycle.js"></script>
+<script src="assets/js/fading-pages.1.3.4.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
