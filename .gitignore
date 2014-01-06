@@ -183,7 +183,7 @@ $RECYCLE.BIN/
 .DS_Store
 
 # Dreamweaver
-*dwsync.xml
+dwsync.xml
 config.ini
 
 # Sublime
