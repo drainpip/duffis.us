@@ -1,0 +1,7 @@
+{
+  "name": "duffis-us",
+  "short_name": "duffis-us",
+  "description": "The Home of The Only Duffs That Matter",
+  "start_url": "/",
+  "display": "standalone"
+}
